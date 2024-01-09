@@ -42,7 +42,7 @@ Name Your Variable: Name it something recognizable like UTM Source.
 ## Step 2: The Script
 Now let's break down the JavaScript script:
 
-To get the Script go to [(https://github.com/jonasploth/transfer-url-utm-parameters/blob/main/setup.js) ](url)
+To get the Script go to [[(https://github.com/jonasploth/transfer-url-utm-parameters/blob/main/setup.js) ](url)](https://github.com/jonasploth/transfer-url-utm-parameters/blob/main/setup.js)
 
 ## Script Explanation
 Target Domains: The utmInheritingDomains array holds the domains you want to append UTM parameters to.
