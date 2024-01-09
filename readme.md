@@ -1,7 +1,7 @@
 # Transfer UTM Parameters from one Page to another
 
 ## Purpose of the Script
-    The script's primary function is to automatically append UTM parameters to all outbound links leading to specified domains. This is particularly useful in marketing campaigns where tracking the performance and source of traffic is crucial. By dynamically adding UTM parameters, the script ensures that all traffic from your website to the targeted domains is properly tagged and trackable in analytics tools.
+The script's primary function is to automatically append UTM parameters to all outbound links leading to specified domains. This is particularly useful in marketing campaigns where tracking the performance and source of traffic is crucial. By dynamically adding UTM parameters, the script ensures that all traffic from your website to the targeted domains is properly tagged and trackable in analytics tools.
 
 ## Technical Breakdown
 
