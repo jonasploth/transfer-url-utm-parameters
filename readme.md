@@ -39,9 +39,8 @@ Always test the script in a development environment first. Check if the UTM para
 
 Once tested, deploy the script on your live site. Monitor your analytics to ensure that the UTM data is being captured correctly. This will help in evaluating the effectiveness of your marketing campaigns.
 
-## Tag Manager Implementation
 
 ### Example Use Case
-Say you're running a marketing campaign for www.example.com and want to track how much traffic is driven to this site from your website. By using this script, you can automatically tag links directing to www.example.com with specific UTM parameters, allowing you to analyze this traffic in Google Analytics or other similar tools.
+Say you're running a marketing campaign for www.gooogle.com and want to track how much traffic is driven to this site from your website. By using this script, you can automatically tag links directing to shop.google.com with specific UTM parameters, allowing you to analyze this traffic in Google Analytics or other similar tools.
 
 This approach is especially beneficial for large websites where manually tagging each link is impractical. It ensures consistent tagging and reliable data for your marketing analytics.
