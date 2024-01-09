@@ -7,11 +7,11 @@ The script's primary function is to automatically append UTM parameters to all o
 
 ### 1. Defining Target Domains:
 
-    The script starts by defining a list of domains to which you want to append UTM parameters. For example, if you're running a campaign targeting www.example.com, the script will only modify links         pointing to this domain.
+The script starts by defining a list of domains to which you want to append UTM parameters. For example, if you're running a campaign targeting www.example.com, the script will only modify links         pointing to this domain.
 
 ### 2. Setting UTM Parameters:
 
-    UTM parameters are defined in an array. These might include utm_source, utm_medium, and utm_campaign. The script can be customized to include the specific UTM parameters relevant to your campaign.
+UTM parameters are defined in an array. These might include utm_source, utm_medium, and utm_campaign. The script can be customized to include the specific UTM parameters relevant to your campaign.
 
 ### 3. Processing All Links:
 
@@ -31,50 +31,50 @@ Open GTM: Log into your GTM account and select your website's container.
 Create New Variables:
 
 ## Navigate to "Variables" in the left-hand menu.
-    Click "New" to create a new variable.
-    Choose "URL" as the variable type.
-    For each UTM parameter (like utm_source, utm_medium, utm_campaign), create a corresponding variable:
-    Variable Configuration: Select "URL" for the variable type.
-    Component Type: Choose "Query" and input the query key (e.g., utm_source for the source variable).
-    Name Your Variable: Name it something recognizable like UTM Source.
- ## Save the Variables: After setting up the variables, save them.
+Click "New" to create a new variable.
+Choose "URL" as the variable type.
+For each UTM parameter (like utm_source, utm_medium, utm_campaign), create a corresponding variable:
+Variable Configuration: Select "URL" for the variable type.
+Component Type: Choose "Query" and input the query key (e.g., utm_source for the source variable).
+Name Your Variable: Name it something recognizable like UTM Source.
+## Save the Variables: After setting up the variables, save them.
 
 ## Step 2: The Script
-    Now let's break down the JavaScript script:
+Now let's break down the JavaScript script:
 
-    To get the Script go to https://github.com/get-utm-clickfunnels/main/setup.js 
+To get the Script go to https://github.com/get-utm-clickfunnels/main/setup.js 
 
-  ## Script Explanation
-    Target Domains: The utmInheritingDomains array holds the domains you want to append UTM parameters to.
+## Script Explanation
+Target Domains: The utmInheritingDomains array holds the domains you want to append UTM parameters to.
 
-    Loop Through Links: The script iterates over every link (<a> tag) on your page.
+Loop Through Links: The script iterates over every link (<a> tag) on your page.
 
-    Check Domain: For each link, it checks if the href contains any of the target domains.
+Check Domain: For each link, it checks if the href contains any of the target domains.
 
-    Append UTM Parameters: If the domain matches, it appends the UTM parameters (utm_source, utm_medium, utm_campaign) to the URL.
+Append UTM Parameters: If the domain matches, it appends the UTM parameters (utm_source, utm_medium, utm_campaign) to the URL.
 
-    It uses GTM variables ({{UTM Source}}, etc.) to get the values of these parameters.
+It uses GTM variables ({{UTM Source}}, etc.) to get the values of these parameters.
 
-    It handles URL formatting, checking if a ? already exists in the URL to decide whether to append with & or ?.
+It handles URL formatting, checking if a ? already exists in the URL to decide whether to append with & or ?.
 
-  ## Step 3: Implementing the Script
-    Add the Script to GTM:
+## Step 3: Implementing the Script
+Add the Script to GTM:
 
-    Create a new "Custom HTML" tag in GTM and paste the script into it.
-    Ensure you replace www.target-domain.com with your actual target domain(s).
+Create a new "Custom HTML" tag in GTM and paste the script into it.
+Ensure you replace www.target-domain.com with your actual target domain(s).
 
 ## Set Up Triggers:
 
-    Define when this tag should fire. Usually, it's on all pages or specific pages where you want the UTM parameters appended.
+Define when this tag should fire. Usually, it's on all pages or specific pages where you want the UTM parameters appended.
 ## Test and Debug:
 
-    Use GTM's preview mode to test the script on your site.
-    Inspect the links using your browser's developer tools to ensure UTM parameters are being appended correctly.
+Use GTM's preview mode to test the script on your site.
+Inspect the links using your browser's developer tools to ensure UTM parameters are being appended correctly.
  ## Publish:
 
-    Once you're satisfied with the testing, publish the changes in GTM.
-    Conclusion
-    This setup allows you to dynamically append UTM parameters to outbound links targeting specific domains. It's efficient for tracking and analyzing referral traffic, especially useful in extensive       digital marketing campaigns where manual tagging is impractical. With GTM and this script, you ensure consistent and accurate tracking across your site.
+Once you're satisfied with the testing, publish the changes in GTM.
+Conclusion
+This setup allows you to dynamically append UTM parameters to outbound links targeting specific domains. It's efficient for tracking and analyzing referral traffic, especially useful in extensive       digital marketing campaigns where manual tagging is impractical. With GTM and this script, you ensure consistent and accurate tracking across your site.
 
 
 
