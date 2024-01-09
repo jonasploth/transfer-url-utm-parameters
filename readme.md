@@ -87,3 +87,7 @@ This setup allows you to dynamically append UTM parameters to outbound links tar
 Say you're running a marketing campaign for www.gooogle.com and want to track how much traffic is driven to this site from your website. By using this script, you can automatically tag links directing to shop.google.com with specific UTM parameters, allowing you to analyze this traffic in Google Analytics or other similar tools.
 
 This approach is especially beneficial for large websites where manually tagging each link is impractical. It ensures consistent tagging and reliable data for your marketing analytics.
+
+# Copyright (c) 
+## //Jonas Ploth 2023
+
