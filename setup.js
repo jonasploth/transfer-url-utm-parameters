@@ -3,7 +3,7 @@
 
 <script type="text/javascript">
 (function() {
-    var utmInheritingDomains = ["www.iron-mind.de", "shop.iron-mind.de"]; // Use an array to hold multiple domains
+    var utmInheritingDomains = ["domain1", "domain2"]; // Use an array to hold multiple domains
     var utmRegExp = /(&|\?)utm_[A-Za-z]+=[A-Za-z0-9]+/gi,
         links = document.getElementsByTagName("a"),
         utms = [
